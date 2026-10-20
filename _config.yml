@@ -22,7 +22,11 @@ title: Swaying Branches
 description: >- # this means to ignore newlines until "baseurl:"
   Blog of Edward Ringler
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://swayingbranches.yehudardevelopment.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: Edward Ringler
+# Post dates come from Blogger, which was set to Pacific time; keep them displaying the same day.
+timezone: America/Los_Angeles
+show_excerpts: true
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
