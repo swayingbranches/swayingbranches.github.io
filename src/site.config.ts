@@ -14,6 +14,8 @@ export const SITE = {
     'Swaying Branches, the blog of Edward Ringler, written between 2013 and 2022 and preserved with his words unchanged.',
   url: 'https://swayingbranches.yehudardevelopment.com',
   originalBlog: 'https://swaying-branches.blogspot.com/',
+  /** Ed's recipe cards, typed up and searchable. */
+  recipesSite: 'https://recipes.yehudardevelopment.com/',
   /** Blogger published in Pacific time; dates are shown in this zone so they match the original posts. */
   timeZone: 'America/Los_Angeles',
 } as const;

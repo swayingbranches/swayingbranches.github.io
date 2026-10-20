@@ -24,6 +24,8 @@ const posts = defineCollection({
     summary_ai: z.boolean(),
     /** Set to true once a family member has read and approved the summaries. */
     summary_reviewed: z.boolean().default(false),
+    /** A link shown above the post, e.g. to a companion site. Not part of Ed's text. */
+    see_also: z.object({ url: z.url(), text: z.string().min(1) }).optional(),
   }),
 });
 
