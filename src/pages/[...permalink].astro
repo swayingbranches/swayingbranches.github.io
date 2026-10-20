@@ -42,7 +42,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { post, topic, related, relatedTotal, older, newer, duplicateTitle } = Astro.props;
 const { Content } = await render(post);
-const { title, date, summary, summary_long, summary_reviewed, tags, blogger_url } = post.data;
+const { title, date, summary, summary_long, summary_reviewed, tags, blogger_url, see_also } = post.data;
 const pageTitle = duplicateTitle ? `${title} (${formatDate(date)})` : title;
 const summaryLabel = summary_reviewed
   ? 'Summary · AI-generated, reviewed by family'
@@ -81,6 +81,14 @@ const isGallery = imageCount(post) >= 10;
         <p class="summary-text">{summary_long}</p>
         <a class="summary-about" href="/about/#summaries" data-pagefind-ignore>How these summaries were made</a>
       </aside>
+
+      {
+        see_also && (
+          <p class="see-also" data-pagefind-ignore>
+            <a href={see_also.url}>{see_also.text} →</a>
+          </p>
+        )
+      }
 
       <div class:list={['prose', { 'is-gallery': isGallery }]} data-post-body data-pagefind-body data-pagefind-weight="2">
         <Content />

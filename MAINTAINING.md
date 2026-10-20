@@ -39,6 +39,18 @@ The `topic` must be one of: Reflections & Nature, Memories & Places, Faith & Phi
 
 If something is typed wrongly (a missing quote, a topic spelled differently), the rebuild stops with an error on the **Actions** tab and the live site stays as it was. Fix the line and commit again.
 
+## Add a link above a post
+
+To point readers somewhere else (the Recipes post links to the recipe site this way), add to the post's top section:
+
+```yaml
+see_also:
+  url: https://recipes.yehudardevelopment.com/
+  text: "All of these recipes, typed up with adjustable servings"
+```
+
+It appears just below the summary and is not part of his text.
+
 ## Change the dedication
 
 Edit [`src/site.config.ts`](src/site.config.ts). Under `DEDICATION`, replace the sentences in `paragraphs` (one quoted string per paragraph) and change `isPlaceholder: true` to `isPlaceholder: false`. That removes the "Draft dedication" note and the dashed border.
