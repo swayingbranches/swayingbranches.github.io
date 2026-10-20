@@ -1,0 +1,36 @@
+---
+import { formatDate, isoDate, postUrl, readingLabel, type Post } from '../lib/posts';
+
+interface Props {
+  posts: Post[];
+  /** Show the one-line AI summary under each title. */
+  summaries?: boolean;
+}
+
+const { posts, summaries = true } = Astro.props;
+---
+
+<ul class="entries">
+  {
+    posts.map((post) => (
+      <li class="entry">
+        <div class="entry-head">
+          <a class="entry-title" href={postUrl(post)}>
+            {post.data.title}
+          </a>
+          <span class="meta">
+            <time datetime={isoDate(post.data.date)}>{formatDate(post.data.date)}</time>
+            <span class="dot" aria-hidden="true">·</span>
+            {readingLabel(post)}
+          </span>
+        </div>
+        {summaries && (
+          <p class="summary-line">
+            <span class="visually-hidden">AI summary: </span>
+            {post.data.summary}
+          </p>
+        )}
+      </li>
+    ))
+  }
+</ul>

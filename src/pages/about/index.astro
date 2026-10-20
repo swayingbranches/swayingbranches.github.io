@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../site.config';
+---
+
+<Base title="About" description="About Swaying Branches, the blog of Edward Ringler." section="about">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <h1>About</h1>
+    </header>
+    <div class="prose about">
+      <p><em>Swaying Branches</em> is the blog of {SITE.author}, written between 2013 and 2022.</p>
+      <p>
+        The name comes from his post <a href="/2013/11/swaying-branches.html">Swaying Branches</a>, about watching
+        the trees from his front porch in Squirrel Hill.
+      </p>
+      <p>
+        The posts were originally published at <a href={SITE.originalBlog}>swaying-branches.blogspot.com</a> and have
+        been preserved here with his words unchanged. Each post keeps its original address, and links back to the
+        original on Blogspot.
+      </p>
+
+      <h2 id="summaries">About the summaries</h2>
+      <p>
+        To help readers find their way around, each post has a one-line summary, a slightly longer summary at the top of
+        the post, and a topic. These were written with the help of AI, from the text of each post, and describe what he
+        wrote without adding to it. They are clearly marked, and each one says whether a family member has reviewed it
+        yet.
+      </p>
+      <p>
+        The summaries are only a guide. His own text, below each summary, is exactly as he published it: no words have
+        been changed, added or removed. Where a summary and the post differ, the post is what he said.
+      </p>
+      <p>
+        Search covers the full text of every post and ranks his own words above the summaries.
+      </p>
+    </div>
+  </div>
+</Base>

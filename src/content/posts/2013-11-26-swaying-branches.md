@@ -1,0 +1,21 @@
+---
+title: "Swaying Branches"
+date: 2013-11-26 18:23:00 -0800
+permalink: /2013/11/swaying-branches.html
+blogger_url: https://swaying-branches.blogspot.com/2013/11/swaying-branches.html
+topic: "Reflections & Nature"
+tags: ["trees", "seasons", "Squirrel Hill"]
+featured: true
+summary: "He describes watching the trees sway from his front porch in Squirrel Hill, and how the view changes through the day and the seasons."
+summary_long: "He writes about sitting on his porch on a quiet Squirrel Hill street and watching the branches move, from calm to the suddenness of a summer storm, and how it clears his mind. He follows the colors and sounds from dusk into night and through fall, winter, spring and summer, comparing the trees' day to our own."
+summary_ai: true
+summary_reviewed: false
+---
+
+Sitting on my front porch and watching the swaying of the branches varying in intensity from a quiet calmness to the suddenness of  a summer thunderstorm has a positive effect that enables me to clear my mind and fill it with shadows, colors, sounds  and movement of the trees which can only be described as refreshing and uplifting.
+
+It is best to start viewing  before dusk to see the bright colors of all participants in the symphony of the trees, from the red of the Japanese maple to the dark green of the black walnut to the reddish green of the maples.  I am fortunate to live on a street in Squirrel Hill that is relatively quiet at night and viewing of the movement of the trees can proceed undisturbed.
+
+It is quite inspiring to see the metamorphosis of the trees from the vital colors of the day to the more somber colors of night.  Possibly it mirrors our daily activities.  We wake up refreshed from a good night's sleep and as the day progresses the colors of our day get more intense and vibrant until towards the end of the day they succumb to to the darkness of the night.
+
+There is also a seasonal change in viewing the swaying branches.   From Fall we have a myriad of colors and changing sounds.  The rustling of the drying leaves portends the nakedness and quietude of winter.  Winter, covering the branches with its cloak of  soft white fur, has a different sound.  With no leaves to break up the breezes and winds which chills us to the bone, we hear the rattling  of the branches  and the high pitched whistling of the wind.flowing over them.  Don't worry!  The dance of the leaves begins anew. Spring with its crescendo of new greens with its whispering leaves will soon enough be upon us as it has for untold eons.    Summer with its darker shades of green and the more mature vibrant music of its branches will now take center stage under a warming sun and bright blue sky.

@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getPosts, groupByTopic, topicUrl } from '../../lib/posts';
+
+const groups = groupByTopic(await getPosts());
+---
+
+<Base title="Topics" description="Edward Ringler's posts grouped by topic." section="topics">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <h1>Topics</h1>
+      <p>Every post is filed under one topic.</p>
+    </header>
+    {
+      groups.map(({ topic, posts }) => (
+        <section class="topic-group" aria-labelledby={`t-${topic.slug}`}>
+          <h2 id={`t-${topic.slug}`}>
+            <a href={topicUrl(topic)}>{topic.name}</a>
+            <span class="count">{posts.length} {posts.length === 1 ? 'post' : 'posts'}</span>
+          </h2>
+          <PostList posts={posts} summaries={false} />
+        </section>
+      ))
+    }
+  </div>
+</Base>
