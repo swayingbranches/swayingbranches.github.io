@@ -136,9 +136,9 @@ Complex\
 : Kotak Mahindra Bank Ltd.,345, Shree Mohini
 
 ,Kingway, Nagpur -01, India\
-Beneficiary account number : 0412414891\
-Swift Code : KKBKINBBCPC\
-IFSC Code : KKBK0000691
+Beneficiary account number : [removed]\
+Swift Code : [removed]\
+IFSC Code : [removed]
 
 Beneficiary Address : Sharvik Impex India Private Limited\
 301/D , Circle No. 18/24 ,Pardeshi Telipura\
