@@ -1,0 +1,106 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import SummaryLegend from '../components/SummaryLegend.astro';
+import { DEDICATION, SITE } from '../site.config';
+import { formatDate, getPosts, groupByTopic, groupByYear, isoDate, postUrl, topicUrl } from '../lib/posts';
+
+const posts = await getPosts();
+const featured = posts.filter((p) => p.data.featured);
+const topics = groupByTopic(posts);
+const years = groupByYear(posts);
+---
+
+<Base section="home">
+  <div class="wrap">
+    <section class="hero" aria-labelledby="site-title">
+      <h1 id="site-title">{SITE.title}</h1>
+      <p class="byline">The blog of {SITE.author} · {SITE.years} · {posts.length} posts</p>
+      <div class:list={['dedication', { 'is-placeholder': DEDICATION.isPlaceholder }]}>
+        {DEDICATION.isPlaceholder && <span class="placeholder-note">Draft dedication, for the family to replace</span>}
+        {DEDICATION.paragraphs.map((p) => <p>{p}</p>)}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="start-here">
+      <div class="section-head">
+        <h2 id="start-here">Start here</h2>
+      </div>
+      <ul class="cards">
+        {
+          featured.map((post) => (
+            <li>
+              <article class="card">
+                <h3>
+                  <a href={postUrl(post)}>{post.data.title}</a>
+                </h3>
+                <p class="meta">
+                  <time datetime={isoDate(post.data.date)}>{formatDate(post.data.date)}</time>
+                  <span class="dot" aria-hidden="true">·</span>
+                  {post.data.topic}
+                </p>
+                <p class="summary-line">
+                  <span class="visually-hidden">AI summary: </span>
+                  {post.data.summary}
+                </p>
+              </article>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="search-heading">
+      <div class="section-head">
+        <h2 id="search-heading">Search</h2>
+      </div>
+      <form class="search-form" action="/search/" method="get" role="search">
+        <label class="visually-hidden" for="home-search">Search all posts</label>
+        <input id="home-search" type="search" name="q" placeholder="Search his posts, e.g. canoe, Moodus, kugel" autocomplete="off" />
+        <button class="button" type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="section" aria-labelledby="by-year">
+      <div class="section-head">
+        <h2 id="by-year">By year</h2>
+        <a href="/years/">All posts by year</a>
+      </div>
+      <ul class="years">
+        {
+          years.map(({ year, posts: yearPosts }) => (
+            <li>
+              <a href={`/years/#y${year}`}>
+                {year}
+                <span class="count">
+                  {yearPosts.length}
+                  <span class="visually-hidden">{yearPosts.length === 1 ? ' post' : ' posts'}</span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="by-topic">
+      <div class="section-head">
+        <h2 id="by-topic">All posts by topic</h2>
+      </div>
+      <SummaryLegend posts={posts} />
+      <div class="topic-index">
+        {
+          topics.map(({ topic, posts: topicPosts }) => (
+            <section class="topic-group" aria-labelledby={`t-${topic.slug}`}>
+              <h3 id={`t-${topic.slug}`}>
+                <a href={topicUrl(topic)}>{topic.name}</a>
+                <span class="count">{topicPosts.length} {topicPosts.length === 1 ? 'post' : 'posts'}</span>
+              </h3>
+              <PostList posts={topicPosts} />
+            </section>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</Base>

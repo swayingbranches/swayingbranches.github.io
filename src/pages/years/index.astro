@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import SummaryLegend from '../../components/SummaryLegend.astro';
+import { getPosts, groupByYear } from '../../lib/posts';
+
+const posts = await getPosts();
+const years = groupByYear(posts);
+---
+
+<Base title="By year" description="All of Edward Ringler's posts, year by year." section="years">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <h1>By year</h1>
+      <p>All {posts.length} posts, from the first in {years[0]?.year} to the last in {years.at(-1)?.year}.</p>
+    </header>
+    <nav aria-label="Jump to year">
+      <ul class="years">
+        {years.map(({ year }) => <li><a href={`#y${year}`}>{year}</a></li>)}
+      </ul>
+    </nav>
+    <div class="section">
+      <SummaryLegend posts={posts} />
+      {
+        years.map(({ year, posts: yearPosts }) => (
+          <section class="topic-group" id={`y${year}`} aria-labelledby={`h${year}`}>
+            <h2 class="year-heading" id={`h${year}`}>
+              {year}
+              <span class="count">{yearPosts.length} {yearPosts.length === 1 ? 'post' : 'posts'}</span>
+            </h2>
+            <PostList posts={yearPosts} />
+          </section>
+        ))
+      }
+    </div>
+  </div>
+</Base>

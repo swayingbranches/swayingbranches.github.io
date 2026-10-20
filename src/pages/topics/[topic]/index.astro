@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import PostList from '../../../components/PostList.astro';
+import SummaryLegend from '../../../components/SummaryLegend.astro';
+import { getPosts, groupByTopic } from '../../../lib/posts';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return groupByTopic(posts).map(({ topic, posts: topicPosts }) => ({
+    params: { topic: topic.slug },
+    props: { topic, posts: topicPosts },
+  }));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const { topic, posts } = Astro.props;
+---
+
+<Base title={topic.name} description={`Posts by Edward Ringler about ${topic.name.toLowerCase()}.`} section="topics">
+  <div class="wrap narrow">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/topics/">Topics</a></li>
+        </ol>
+      </nav>
+      <h1>{topic.name}</h1>
+      <p>{posts.length} {posts.length === 1 ? 'post' : 'posts'}, oldest first.</p>
+    </header>
+    <SummaryLegend posts={posts} />
+    <PostList posts={posts} />
+  </div>
+</Base>

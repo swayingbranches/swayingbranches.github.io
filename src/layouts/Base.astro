@@ -1,0 +1,99 @@
+---
+import '../styles/global.css';
+import BranchIcon from '../components/BranchIcon.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import { SITE } from '../site.config';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Which nav item to mark as the current page. */
+  section?: 'home' | 'topics' | 'years' | 'search' | 'about';
+  /** Extra classes for <main>. */
+  mainClass?: string;
+}
+
+const { title, description = SITE.description, section, mainClass } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE.title}` : `${SITE.title} · ${SITE.author}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+
+const nav = [
+  { href: '/', label: 'Home', key: 'home' },
+  { href: '/topics/', label: 'Topics', key: 'topics' },
+  { href: '/years/', label: 'Years', key: 'years' },
+  { href: '/search/', label: 'Search', key: 'search' },
+  { href: '/about/', label: 'About', key: 'about' },
+] as const;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={SITE.author} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/feed.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1815" media="(prefers-color-scheme: dark)" />
+    <meta property="og:site_name" content={SITE.title} />
+    <meta property="og:title" content={title ?? SITE.title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <script is:inline>
+      // Apply a saved light/dark choice before the page paints.
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">
+          <BranchIcon />
+          <span>
+            <span class="brand-name">{SITE.title}</span>
+            <span class="brand-sub">{SITE.author} · {SITE.years}</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            {
+              nav.map((item) => (
+                <li>
+                  <a href={item.href} aria-current={section === item.key ? 'page' : undefined}>
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          <ThemeToggle />
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class={mainClass}>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          The writings of {SITE.author}, {SITE.years}. Originally published at{' '}
+          <a href={SITE.originalBlog}>swaying-branches.blogspot.com</a>.
+        </p>
+        <p><a href="/feed.xml">RSS feed</a> · <a href="/about/">About this archive</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

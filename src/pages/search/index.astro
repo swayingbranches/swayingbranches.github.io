@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Search" description="Search the posts of Edward Ringler." section="search" mainClass="search-page">
+  <Fragment slot="head">
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
+    <script is:inline src="/pagefind/pagefind-component-ui.js"></script>
+  </Fragment>
+  <div class="wrap narrow">
+    <header class="page-head">
+      <h1>Search</h1>
+      <p>Search the full text of every post. Matches in his own words rank above matches in the summaries.</p>
+    </header>
+    <div class="search-ui" role="search" aria-label="Search posts">
+      <pagefind-input placeholder="Search his posts" autofocus></pagefind-input>
+      <pagefind-filter-dropdown filter="topic" label="Topic"></pagefind-filter-dropdown>
+      <pagefind-summary></pagefind-summary>
+      <pagefind-results hide-sub-results max-results="50"></pagefind-results>
+    </div>
+    <noscript>
+      <p>Search needs JavaScript. You can still browse <a href="/topics/">by topic</a> or <a href="/years/">by year</a>.</p>
+    </noscript>
+  </div>
+</Base>
+
+<script>
+  // Run a search passed in the address, e.g. /search/?q=canoe from the homepage box.
+  const query = new URLSearchParams(window.location.search).get('q')?.trim();
+  if (query) {
+    void customElements.whenDefined('pagefind-input').then(() => {
+      const input = document.querySelector<HTMLInputElement>('pagefind-input input');
+      if (!input) return;
+      input.value = query;
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+  }
+</script>

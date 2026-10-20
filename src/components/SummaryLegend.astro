@@ -1,0 +1,18 @@
+---
+import AiIcon from './AiIcon.astro';
+import { allSummariesReviewed, type Post } from '../lib/posts';
+
+interface Props {
+  posts: Post[];
+}
+
+const reviewed = allSummariesReviewed(Astro.props.posts);
+---
+
+<div class="legend">
+  <AiIcon />
+  <p>
+    The one-line summaries in <em>italics</em> are AI-generated{reviewed ? ' and reviewed by the family' : ' and not yet reviewed by the family'}.
+    Ed's posts themselves are unchanged. <a href="/about/#summaries">About the summaries</a>
+  </p>
+</div>

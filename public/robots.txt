@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://swayingbranches.yehudardevelopment.com/sitemap-index.xml
