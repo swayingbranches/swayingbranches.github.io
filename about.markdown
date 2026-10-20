@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+*Swaying Branches* is the blog of Edward Ringler, written between 2013 and 2022.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The name comes from his post [Swaying Branches](/2013/11/swaying-branches.html), about watching the trees from his front porch in Squirrel Hill.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The posts were originally published at swaying-branches.blogspot.com and have been preserved here with his words unchanged.
