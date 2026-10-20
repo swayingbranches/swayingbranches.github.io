@@ -26,7 +26,7 @@ export const SITE = {
  * to false when the family has written the final version.
  */
 export const DEDICATION = {
-  isPlaceholder: true,
+  isPlaceholder: false,
   paragraphs: [
     'Ed wrote here between 2013 and 2022, about the trees outside his porch, his childhood summers, his work, his faith and the questions of the day.',
     'His posts are kept as he wrote them, so that family, friends and anyone who finds them can keep reading.',

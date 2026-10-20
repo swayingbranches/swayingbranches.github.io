@@ -6,7 +6,7 @@ blogger_url: https://swaying-branches.blogspot.com/2015/04/elephant-in-parlor.ht
 topic: "Health & Medicine"
 tags: ["vaccines", "GMOs", "cell phones", "autism"]
 featured: false
-summary: "He returns to the 'elephant in the parlor': an alliance of drug, seed, medical and cell phone companies that he blames for rising illness."
+summary: "He returns to the 'elephant in the parlor': an alliance of drug, seed, medical and cell phone companies."
 summary_long: "Opening with a child trying to tell a busy mother about an elephant in the parlor, he argues that pharmaceutical and agricultural companies, medical schools and cell phone companies are an unacknowledged problem. He points to rising autism, allergies and digestive disorders, and questions products tested by the people who profit from them."
 summary_ai: true
 summary_reviewed: false
