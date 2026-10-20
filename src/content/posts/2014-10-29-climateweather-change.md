@@ -22,11 +22,11 @@ Many homes have been built in forested areas which are prone to fire. Other home
 
 My point is that even with a sustained rainfall, the demands on the water system and environment cannot be made up as population, agriculture and industrial needs increase.
 
-Fracking is problem here in Pennsylvania. One cannot deny the economic boon to PA and the US but, and there is a big but, the fracking chemicals that are now being used are injurious to life. Only a fool can say that they will not get into our water supply. These fracking solutions are injected into the requisite geologic strata under pressure and under that same pressure must work its way upward. I don"t believe there is such a thing as a permanent impermeable geologic strata. Other problems that may occur are earthquakes, especially as fracking occurs over an ever widening area and higher injection pressures.
+Fracking is problem here in Pennsylvania. One cannot deny the economic boon to PA and the US but, and there is a big but, the fracking chemicals that are now being used are injurious to life. Only a fool can say that they will not get into our water supply. These fracking solutions are injected into the requisite geologic strata under pressure and under that same pressure must work its way upward. I don”t believe there is such a thing as a permanent impermeable geologic strata. Other problems that may occur are earthquakes, especially as fracking occurs over an ever widening area and higher injection pressures.
 
 Continuing on, let us take a stop over South America. Do you think that the destruction of thousands of square miles of tropical rain forest will have no effect on local and global weather conditions? Think again!
 
-How many times have you sat in the shade of a tree sheltering you from the sun"s heat?
+How many times have you sat in the shade of a tree sheltering you from the sun”s heat?
 
 What about Africa? Continuous internecine warfare has decimated many countries and lowered the standard of living for all, far beyond that would be caused by the vagaries of weather/climate change.
 

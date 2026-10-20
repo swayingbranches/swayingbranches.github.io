@@ -85,8 +85,8 @@ Zelenko Protocols
 
 The following appears to be a good source of quality low cost pharmaceuticals:
 
-**Packing list :-**\\
-**Invoice No :-** **SIIPL/21-22/775**\\
+**Packing list :-**\
+**Invoice No :-** **SIIPL/21-22/775**\
 **Date :-** **09.11.2021**
 
 | Sr. No. | Name | Tracking No. | Product | Mfg. Date | Exp Date | Batch No | Mfg | Qnty | Country | Zip code | Shipping | |
@@ -96,15 +96,15 @@ The following appears to be a good source of quality low cost pharmaceuticals:
 
 Please find the invoice as :
 
-1) Ivermega 12 Mg (strip of 10 tab / 1 BOX = 100 TABLET ) ----------------- US $ 0.08 per tab X 400 tab = $ 32
+1\) Ivermega 12 Mg (strip of 10 tab / 1 BOX = 100 TABLET ) —————– US $ 0.08 per tab X 400 tab = $ 32
 
-2) HCQS 200 mg (strip of 15 tab) -------------- US $ 0.12 per tab X 200 tab = $ 24
+2\) HCQS 200 mg (strip of 15 tab) ————– US $ 0.12 per tab X 200 tab = $ 24
 
-3) Azicip 500 mg (strip of 3 tab) ----------------- US $ 0.52 per tab X 200 tab = $ 104
+3\) Azicip 500 mg (strip of 3 tab) —————– US $ 0.52 per tab X 200 tab = $ 104
 
-Shipping by EMS -------------------------------- US $ 35
+Shipping by EMS ——————————– US $ 35
 
-Total USD ----------------------------------------- US $ 195
+Total USD —————————————– US $ 195
 
 Please let me know if any other information is required.
 
@@ -126,25 +126,25 @@ Catalog Link: <https://www.indiamart.com/sharvikimpex/>
 
 Website : [www.sharvikimpex.co.in](http://www.sharvikimpex.co.in)
 
-Beneficiary Name : Sharvik Impex India Pvt.Ltd.\\
-Beneficiary Bank Name : Kotak Mahindra Bank\\
-Branch name\\
-01\\
-: 345, Shree Mohini Complex ,Kingway, Nagpur -\\
-Beneficiary Bank Address\\
-Complex\\
+Beneficiary Name : Sharvik Impex India Pvt.Ltd.\
+Beneficiary Bank Name : Kotak Mahindra Bank\
+Branch name\
+01\
+: 345, Shree Mohini Complex ,Kingway, Nagpur -\
+Beneficiary Bank Address\
+Complex\
 : Kotak Mahindra Bank Ltd.,345, Shree Mohini
 
-,Kingway, Nagpur -01, India\\
-Beneficiary account number : 0412414891\\
-Swift Code : KKBKINBBCPC\\
+,Kingway, Nagpur -01, India\
+Beneficiary account number : 0412414891\
+Swift Code : KKBKINBBCPC\
 IFSC Code : KKBK0000691
 
-Beneficiary Address : Sharvik Impex India Private Limited\\
-301/D , Circle No. 18/24 ,Pardeshi Telipura\\
-Central Avenue , Dosar Bhavan Square,\\
-Nagpur\\
-State : Maharashtra\\
+Beneficiary Address : Sharvik Impex India Private Limited\
+301/D , Circle No. 18/24 ,Pardeshi Telipura\
+Central Avenue , Dosar Bhavan Square,\
+Nagpur\
+State : Maharashtra\
 Pincode : 440018
 
 Mobile :8554890890

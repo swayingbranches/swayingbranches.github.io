@@ -50,14 +50,15 @@ A fiduciary duty is an obligation to act in the best interest of another party. 
 
 ---
 
-<div style="text-align: center; font-size: small;" markdown="1">
-[Law and the Physician Homepage](https://biotech.law.lsu.edu/books/lbb/x_t.htm)\\
+<div style="text-align: center; font-size: small;">
+
+[Law and the Physician Homepage](https://biotech.law.lsu.edu/books/lbb/x_t.htm)\
 Copyright 1993 - NOT UPDATED
 
 *[Professor Edward P. Richards, III, JD, MPH](https://biotech.law.lsu.edu/cphl/cv/Resume.htm) - [Webmaster](mailto:richards@lsu.edu)*
 
-*Provide Website Feedback - <https://www.lsu.edu/feedback>*\\
-*Privacy Statement - <https://www.lsu.edu/privacy>*\\
+*Provide Website Feedback - <https://www.lsu.edu/feedback>*\
+*Privacy Statement - <https://www.lsu.edu/privacy>*\
 *Accessibility Statement - <https://www.lsu.edu/accessibility>*
 </div>
 

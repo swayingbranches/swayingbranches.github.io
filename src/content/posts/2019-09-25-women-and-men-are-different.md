@@ -12,7 +12,7 @@ summary_ai: true
 summary_reviewed: false
 ---
 
-Went to a funeral with my wife today to pay final respects to a very nice lady who passed away from cancer. She was a beloved teacher at Yeshiva. She also sent her own children to Hillel as well. Her name was Mrs. Dalia Shimon OB"M. She was loved and respected by the community as she was a very upbeat, positive and caring individual always with a smile on her face. A great many from the community turned out to pay respects: Yeshiva, Shaare Torah, P Z, Hillel and many others as well.
+Went to a funeral with my wife today to pay final respects to a very nice lady who passed away from cancer. She was a beloved teacher at Yeshiva. She also sent her own children to Hillel as well. Her name was Mrs. Dalia Shimon OB”M. She was loved and respected by the community as she was a very upbeat, positive and caring individual always with a smile on her face. A great many from the community turned out to pay respects: Yeshiva, Shaare Torah, P Z, Hillel and many others as well.
 
 I must comment on the women and men who participated in the funeral. I have never noticed the extreme differences between men and women as exemplified at this particular funeral. The men did most of the physical labor as required by Jewish Law and then stood quietly and attentively as the funeral progressed.
 

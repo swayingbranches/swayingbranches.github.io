@@ -15,7 +15,6 @@
     "check:urls": "node scripts/check-urls.ts"
   },
   "dependencies": {
-    "@astrojs/markdown-satteri": "0.4.4",
     "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.4",
     "astro": "7.4.1",

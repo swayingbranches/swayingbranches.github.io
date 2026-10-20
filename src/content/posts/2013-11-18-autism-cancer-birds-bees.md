@@ -28,7 +28,7 @@ As for bird migrations, my theory is that the increase in varying species of bir
 >
 > RELATED TAGS: [SENSES](http://discovermagazine.com/tags/senses), [ANIMAL INTELLIGENCE](http://discovermagazine.com/tags/animal-intelligence), [EARTH SCIENCE](http://discovermagazine.com/tags/earth-science), [UNUSUAL ORGANISMS](http://discovermagazine.com/tags/unusual-organisms)
 >
-> ![Illustration of what a bird's magnetic vision might look like](https://web.archive.org/web/20171105114551/http://discovermagazine.com/~/media/Images/Issues/2007/oct/magnetic-vision-bird.jpg?mw=900)
+> <a class="image-link" href="https://web.archive.org/web/20171105114551/http://discovermagazine.com/~/media/Images/Issues/2007/oct/magnetic-vision-bird.jpg?mw=900"><img src="https://web.archive.org/web/20171105114551/http://discovermagazine.com/~/media/Images/Issues/2007/oct/magnetic-vision-bird.jpg?mw=900" alt="Illustration of what a bird's magnetic vision might look like" loading="lazy" decoding="async"></a>
 >
 > Dominik Heyers' imagining of what avian magneto-vision might look like.  
 > Garden warbler image courtesy of Henrik Mouritsen
@@ -93,13 +93,13 @@ Read more: [Cell Phone Subscribers in the U.S., 1985–2010 \| Infoplease.com](h
 
 http://blog.chron.com/sciguy/2012/03/as-cell-phone-use-has-risen-in-the-u-s-has-brain-cancer-also-increased/
 
-![Graph of mobile phone subscriptions per capita in the US, 1980 to 2010](https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Mobile-Phone-Subscriptions.jpg)
+<a class="image-link" href="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Mobile-Phone-Subscriptions.jpg"><img src="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Mobile-Phone-Subscriptions.jpg" alt="Graph of mobile phone subscriptions per capita in the US, 1980 to 2010" loading="lazy" decoding="async"></a>
 
 [Autism & Cell Towers: Electromagnetic Radiation Connection Possibility](http://www.dailykos.com/story/2012/04/11/1082549/-Autism-Cell-Towers-Electromagnetic-Radiation-Connection-Possibility)
 
 http://www.dailykos.com/story/2012/04/11/1082549/-Autism-Cell-Towers-Electromagnetic-Radiation-Connection-Possibility#
 
-![Autism Speaks chart showing autism prevalence rising from 1 in 5000 in 1975 to 1 in 110 in 2009](https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Autism-Prevalence.jpg)
+<a class="image-link" href="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Autism-Prevalence.jpg"><img src="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Autism-Prevalence.jpg" alt="Autism Speaks chart showing autism prevalence rising from 1 in 5000 in 1975 to 1 in 110 in 2009" loading="lazy" decoding="async"></a>
 
 I think that the susceptibility of people to radiation and its effects depend on the radiation density, the age of people exposed, including prenatal, duration of exposure and length of time both short time and long term.
 
@@ -113,7 +113,7 @@ Yes, statistics and graphs can be viewed in many ways.
 >
 > Each honeybee hive produces about 29 kg of honey per year. To help them make this honey, the bees talk to each other - and just recently, some scientists have learnt to **speak** this language!
 >
-> The story begins back in 1923, when Karl von Frisch from the University of Munich in Germany, published his first paper on the language of the honeybees. He reckoned that they ''spoke'' with each other by dancing the dance!
+> The story begins back in 1923, when Karl von Frisch from the University of Munich in Germany, published his first paper on the language of the honeybees. He reckoned that they ‘‘spoke’’ with each other by dancing the dance!
 >
 > Suppose a honeybee has found a flower bed rich in nectar and pollen. She flies back, into the hive, and tells her fellow workers about the flowers - by dancing.
 >
@@ -135,7 +135,7 @@ Yes, statistics and graphs can be viewed in many ways.
 >
 > Now under the right conditions, magnetic fields can effect humans. Susan Blackmore wrote about her experiences in the New Scientist, after a neuroscientist had blasted her brain with intense magnetic fields in his laboratory.
 >
-> She felt nothing for the first ten minutes. Then, even though she knew that she was reclining perfectly still in a chair, she felt as though she was swaying on a hammock. Almost immediately afterwards, even though she knew that there was nobody near her, she could feel "two hands grabbing her shoulders and pulling her upwards." As the magnetic fields continued to act on her brain, she could ''feel'' something grab one of her legs and try to pull it up the wall - although her eyes told her nothing was happening!
+> She felt nothing for the first ten minutes. Then, even though she knew that she was reclining perfectly still in a chair, she felt as though she was swaying on a hammock. Almost immediately afterwards, even though she knew that there was nobody near her, she could feel "two hands grabbing her shoulders and pulling her upwards." As the magnetic fields continued to act on her brain, she could ‘‘feel’’ something grab one of her legs and try to pull it up the wall - although her eyes told her nothing was happening!
 >
 > And then the magnetic fields began to act on her emotions. She suddenly felt very angry - but she didn't know what she was angry about, nor at whom she was **angry**. This anger lasted only 10 seconds, but as it faded, she was suddenly beset with a very intense attack of fear. Again, she was not scared of anyone or anything, but she was very afraid.
 >
@@ -145,9 +145,9 @@ Yes, statistics and graphs can be viewed in many ways.
 >
 > But there's another type of iron oxide which is paramagnetic. Paramagnetic materials are themselves not magnetic, but, they are pulled by magnetic fields. So a non-magnetic paper clip made of soft iron is actually paramagnetic, because it can be pulled by a magnet.
 >
-> According to doctors Hsu and Li of the National Tsing Hua University in Taiwan, honeybees have tiny paramagnetic particles in their bodies. These paramagnetic particles are inside cells inside the bees' tummy. Depending on whether they are lined up side-by-side, or end-to-end, these paramagnetic particles can, as the external magnetic field changes, swell or shrink. But, these paramagnetic particles are attached to the ''walls'' of the cells that they are in, so as the paramagnetic particles change shape, so do the cell walls. And nerves, attached to the outside of these cells, carry signals up to the honeybee's brain.
+> According to doctors Hsu and Li of the National Tsing Hua University in Taiwan, honeybees have tiny paramagnetic particles in their bodies. These paramagnetic particles are inside cells inside the bees' tummy. Depending on whether they are lined up side-by-side, or end-to-end, these paramagnetic particles can, as the external magnetic field changes, swell or shrink. But, these paramagnetic particles are attached to the ‘‘walls’’ of the cells that they are in, so as the paramagnetic particles change shape, so do the cell walls. And nerves, attached to the outside of these cells, carry signals up to the honeybee's brain.
 >
-> So the magnetic cells in the bees tummy are like tiny onboard compasses. This is the first time scientists have actually followed the ''line of information'' in a living animal, from the magnets to its brain.
+> So the magnetic cells in the bees tummy are like tiny onboard compasses. This is the first time scientists have actually followed the ‘‘line of information’’ in a living animal, from the magnets to its brain.
 >
 > Now honeybees are told how to leave the nest and where to go by the buzzing wings and waggling dance of another honeybee. And, by using the paramagnetic particles of iron oxide, these honey bees can avoid getting lost on the way home, and iron out their problems with a little magnetic navigation.
 >
@@ -159,7 +159,7 @@ http://www.myrmecos.net/2011/03/10/honey-bee-colony-collapse-disorder-in-context
 
 > ## Honey Bee Colony Collapse Disorder, In Context
 >
-> ![Graph of US honey-producing bee colonies, 1945 to 2007, declining from about 5.5 million to 2.4 million, with the arrival of CCD marked](https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Picture.png)
+> <a class="image-link" href="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Picture.png"><img src="https://assets.yehudardevelopment.com/swaying-branches/autismcancer-birds-bees/Picture.png" alt="Graph of US honey-producing bee colonies, 1945 to 2007, declining from about 5.5 million to 2.4 million, with the arrival of CCD marked" loading="lazy" decoding="async"></a>
 
 Is it possible that the failure of bees to return to their colony is not only effected by pesticides and mites but increased radiation density (primarily from cell phone towers) as well?
 

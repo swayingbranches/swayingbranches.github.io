@@ -34,12 +34,12 @@ So to in medicine. Do you think that the physicians, pharmaceutical companies an
 
 Physicians and pharmaceutical companies have training but little experience with scientific procedure. They do however have a vested interest educationally, monetarily and status in the outcome of any testing that is performed. Interpretation of statistics is haphazard as based on improper testing techniques. Over the last 30 to 40 years, autism, asthma and digestive disorders have skyrocketed. This correlates very well with the following:
 
-1\.Multiplication of cell phone towers and cell phones.\\
-2 Increased use of vaccines.\\
-3\. Emergence of genetically modified foods.\\
-3\. Increase in trade from China?\\
-4\.Increased use of pesticides.\\
-5\. Fluorides in water and toothpaste.\\
+1\.Multiplication of cell phone towers and cell phones.\
+2 Increased use of vaccines.\
+3\. Emergence of genetically modified foods.\
+3\. Increase in trade from China?\
+4\.Increased use of pesticides.\
+5\. Fluorides in water and toothpaste.\
 6\. Others as they emerge.
 
 The biggest experiment ever tried is now being performed on humanity.
@@ -60,8 +60,8 @@ Again! There is an elephant in the parlour and it is not a Republican.!
 >
 > Again, thank you for taking the time to contact me about this matter. Please feel free to contact me if I can assist you in any way.
 >
-> Sincerely yours,\\
-> Senator Jay Costa, Jr.\\
+> Sincerely yours,\
+> Senator Jay Costa, Jr.\
 > 43<sup>rd</sup> District
 >
 > JC/jlg
