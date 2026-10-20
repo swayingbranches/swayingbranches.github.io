@@ -1,0 +1,28 @@
+{
+  "name": "swaying-branches",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Swaying Branches: the blog of Edward Ringler (2013-2022), preserved as a static site.",
+  "engines": {
+    "node": ">=22.22.0 <23"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check:urls": "node scripts/check-urls.ts"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "0.4.4",
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.4.1",
+    "pagefind": "1.5.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.11",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,6 +1,10 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-.bundle
+# Build output and caches
+dist/
+.astro/
+node_modules/
+
+# Old Jekyll build output, in case it is ever rebuilt locally
+_site/
+vendor/
+
+.DS_Store
